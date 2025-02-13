@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: none;
+}
+section{
+    height: 110vh;
+    text-align: center;
+    
+}
+.text h3{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    margin-bottom: 20px;
+}
+.text h3::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 240px;
+    background-color: black;
+    top: 50px;
+}
+.text p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.images{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.pic img{
+    height: 300px;
+    width: 250px;
+    object-fit:cover ;
+}
