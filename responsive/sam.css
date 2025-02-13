@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.404)), url(twos.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: red;
+    height: 50px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    padding: 0 4px;
+    font-weight: bolder;
+
+}
+
+a:hover{
+    color: red;
+    background-color: black;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.logo{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.hero h1{
+    text-align: center;
+    margin-top: 200px;
+    color: red;
+    font-size: 70px;
+    transition: 2s ease-in-out;
+    letter-spacing: 3px;
+
+}
+
+.hero h3{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+@media (min-width: 800px) {
+    .hero{
+        font-size: 10px;
+
+    }
+    }
+
